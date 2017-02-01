@@ -1,3 +1,12 @@
+#logo
+{
+	background-image: url('../img/logo.jpg');
+	background-size: 300px 300px;
+	width: 300px;
+	height: 300px;
+	margin: 0px auto;
+}
+
 img
 {
 	
