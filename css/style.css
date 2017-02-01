@@ -1,3 +1,12 @@
+html 
+{
+  margin:0;
+  padding:0;
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  background-size: cover; 
+}
+
+
 #logo
 {
 	background-image: url('../img/logo.jpg');
@@ -53,7 +62,7 @@ img
 
 #tableau table
 {
-    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    border-collapse: collapse; /* Les bordures du tableau seront collées */
 }
 
 #tableau
@@ -67,7 +76,6 @@ img
 }
 
 #tableau > div{
-    display: table-cell;
+    display: block;
     text-align: center;
-    vertical-align: middle;
 }
