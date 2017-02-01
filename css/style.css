@@ -1,8 +1,10 @@
 img
 {
-	height:200px; 
-	width : 250px;
+	/*height:200px; 
+	width : 250px;*/
 	margin-left: 10px;
+	max-width: 100%;
+	min-height: 100%;
 }
 
 
