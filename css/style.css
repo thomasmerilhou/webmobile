@@ -51,12 +51,23 @@ img
 
 }
 
-table
+#tableau table
 {
     border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
 }
 
-td
+#tableau
 {
     border: 1px solid black;
+}
+
+#tableau{
+    display: table;
+    table-layout: fixed;
+}
+
+#tableau > div{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
