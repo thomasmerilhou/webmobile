@@ -58,11 +58,6 @@ img
 
 }
 
-#tableau table
-{
-    border-collapse: collapse; /* Les bordures du tableau seront collées */
-}
-
 
 td
 {
@@ -78,6 +73,7 @@ table, tr
 {
 	width: 100%;
 	text-align: center;
+	border-collapse: collapse;
 }
 
 @media screen and (max-device-width : 540px) {
