@@ -74,36 +74,20 @@ tr td:first-child
 	background-color: blue;
 }
 
-#tableau{
-    display: table;
-    table-layout: fixed;
-    text-align: center;
-
-}
-
-
-
-@media only screen
-and (max-device-width : 540px) {
-
-table
+table, tr
 {
 	width: 100%;
+	text-align: center;
 }
 
-tr
-{
-	width: 100%
-}
+@media screen and (max-device-width : 540px) {
 
-td
-{
-	width: 100%;
-}
+
 
 td
 {
 	display: block;
+
 }
 
 }
