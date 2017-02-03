@@ -1,6 +1,6 @@
 html 
 {
-  background: url(../img/bg.jpg) no-repeat center center fixed; 
+ /* background: url(../img/bg.jpg) no-repeat center center fixed; */
   background-size: cover;
 }
 
@@ -63,17 +63,47 @@ img
     border-collapse: collapse; /* Les bordures du tableau seront collées */
 }
 
-#tableau
+
+td
 {
-    border: 1px solid black;
+	border: 1px solid black;
+}
+
+tr td:first-child
+{
+	background-color: blue;
 }
 
 #tableau{
     display: table;
     table-layout: fixed;
+    text-align: center;
+
 }
 
-#tableau > div{
-    display: block;
-    text-align: center;
+
+
+@media only screen
+and (max-device-width : 540px) {
+
+table
+{
+	width: 100%;
+}
+
+tr
+{
+	width: 100%
+}
+
+td
+{
+	width: 100%;
+}
+
+#tableau td
+{
+	display: block;
+}
+
 }
