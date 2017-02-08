@@ -1,3 +1,8 @@
+h1
+{
+	margin-left: 1em;
+}
+
 header
 {
 	margin-top: 0.5cm;
@@ -11,13 +16,29 @@ header
 	  height: 500px;
 }
 
+#menu
+{
+	float: right;
+	margin-top: -5.75%;
+	margin-right: 20%;
 
+}
+
+#menu a
+{
+	margin-left: 1cm;
+}
 
 #searchbar
+{ 
+	float: right;
+	margin-top: -6%;
+}
+
+#logo
 {
-	position:relative; 
-	width:1040px; 
-	height:auto;
+	margin-bottom: 1cm;
+	border-bottom: 1px solid;
 }
 
 .formulaire
@@ -38,4 +59,54 @@ header
 	width: 30px;
 	height: 30px;
 	padding: 0; 
+}
+
+#contenu td img,h3
+{
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+#contenu td
+{
+	text-align: center;
+
+}
+
+#contenu td {
+	width: 25%;
+}
+
+#texte p
+{
+	font-style:italic;
+  	font-family:times,serif;
+  	line-height:1.5em;
+  	letter-spacing:0.09em;
+  	margin-left: 2em;
+  	margin-right: 2em;
+}
+
+#maps
+{
+	margin-left: 2em;
+}
+
+#maps h2
+{
+	margin-left: 1em;
+	
+}
+
+#tout #maps
+{
+	display: inline-block;
+	border-right: 0.1mm solid;
+	margin-right: 4em;
+	padding-right: 5em;
+}
+
+#tout #formulaire
+{
+	display: inline-block;
 }
