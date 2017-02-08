@@ -1,0 +1,41 @@
+header
+{
+	margin-top: 0.5cm;
+}
+
+#banniere
+{
+	  background: url("../img/banniere.jpg") center;
+	  background-repeat: no-repeat;
+	  width-max: 100%;
+	  height: 500px;
+}
+
+
+
+#searchbar
+{
+	position:relative; 
+	width:1040px; 
+	height:auto;
+}
+
+.formulaire
+{
+	display:inline-block;
+}
+
+.formulaire .champ       
+{
+	width:200px; 
+	height:25px;
+}
+
+.formulaire .bouton       
+{ 
+	background-image: url("../img/searchbar.png");
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 30px;
+	padding: 0; 
+}
