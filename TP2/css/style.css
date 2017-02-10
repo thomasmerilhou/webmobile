@@ -61,20 +61,13 @@ header
 	padding: 0; 
 }
 
-#contenu td img,h3
+
+#les-blocs .bloc
 {
-	margin-left: 35px;
-	margin-right: 35px;
-}
-
-#contenu td
-{
-	text-align: center;
-
-}
-
-#contenu td {
+	float: left;
+	display: inline-block;
 	width: 25%;
+	text-align: center;
 }
 
 #texte p
@@ -87,7 +80,40 @@ header
   	margin-right: 2em;
 }
 
-#maps
+#tout #maps
+{
+	width: 50%;
+	display:inline-block;
+	float: left;
+}
+
+#tout #formulaire
+{
+	width: 50%;
+	display:inline-block;
+	float: right;
+	margin-top: 5cm; 
+}
+
+input, #prenom, #ddn, #email, #message
+{
+	border: 1px solid green;
+	font-size: 1.5em;
+}
+
+input, #nom, #ville, #photo, #envoyer
+{
+	border: 1px solid red;
+	font-size: 1.5em;
+}
+
+#ddn, #prenom, #message, #photo, #email
+{
+
+}
+
+
+/*#maps
 {
 	margin-left: 2em;
 }
@@ -104,7 +130,7 @@ header
 	border-right: 0.1mm solid;
 	margin-right: 4em;
 	padding-right: 5em;
-}
+}*/
 
 #tout #formulaire
 {
