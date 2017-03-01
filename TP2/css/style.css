@@ -141,8 +141,12 @@ input, textarea
 @media screen and (max-width: 1184px){
 #maps
 {
-	border-right: none;
 	width: 97%;
+}
+
+#tout #maps
+{
+	border-right: none;
 }
 
 #tout #formulaire input, #tout #formulaire textarea
