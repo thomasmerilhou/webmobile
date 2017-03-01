@@ -146,6 +146,7 @@ footer
 iframe
 {
 	width: 200%;
+	margin-left: 1px;
 }
 
 #tout #maps
