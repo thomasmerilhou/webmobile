@@ -52,7 +52,6 @@ header
 {
 	width:200px; 
 	height:25px;
-	border: 1px solid;
 }
 
 .formulaire .bouton       
@@ -103,13 +102,13 @@ header
 	margin-top: 2em;
 }
 
-input, #prenom, #ddn, #email, #message
+#prenom, #ddn, #email, #envoyer
 {
 	border: 1px solid green;
 	font-size: 1.5em;
 }
 
-input, #nom, #ville, #photo, #envoyer
+#nom, #ville, #message
 {
 	border: 1px solid red;
 	font-size: 1.5em;
@@ -144,4 +143,10 @@ input, textarea
 {
 	border-right: none;
 }
+
+#formulaire input, #formulaire textarea
+{
+	width: 100%;
+}
+
 }
