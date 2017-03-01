@@ -147,6 +147,7 @@ input, textarea
 #tout #formulaire input, #tout #formulaire textarea
 {
 	width: 100%;
+	padding-left: 7px;
 }
 
 #tout #formulaire
