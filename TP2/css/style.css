@@ -11,8 +11,9 @@ header
 #banniere
 {
 	  background: url("../img/banniere.jpg") center;
+	  background-size: 100%;
 	  background-repeat: no-repeat;
-	  width-max: 100%;
+	  width: 100%;
 	  height: 500px;
 }
 
@@ -44,12 +45,14 @@ header
 .formulaire
 {
 	display:inline-block;
+
 }
 
 .formulaire .champ       
 {
 	width:200px; 
 	height:25px;
+	border: 1px solid;
 }
 
 .formulaire .bouton       
@@ -59,13 +62,14 @@ header
 	width: 30px;
 	height: 30px;
 	padding: 0; 
+	border: 1px solid;
 }
 
 
 #les-blocs .bloc
 {
 	float: left;
-	display: inline-block;
+	display: block;
 	width: 25%;
 	text-align: center;
 }
@@ -82,17 +86,21 @@ header
 
 #tout #maps
 {
-	width: 50%;
-	display:inline-block;
+	width: 45%;
 	float: left;
+	display: block;
 }
 
 #tout #formulaire
 {
-	width: 50%;
-	display:inline-block;
+	width: 45%;
+	display:block;
 	float: right;
-	margin-top: 5cm; 
+}
+
+#formulaire form
+{
+	margin-top: 2em;
 }
 
 input, #prenom, #ddn, #email, #message
@@ -107,16 +115,14 @@ input, #nom, #ville, #photo, #envoyer
 	font-size: 1.5em;
 }
 
-#ddn, #prenom, #message, #photo, #email
+input, textarea
 {
-
+	margin-bottom: 1em;
+	margin-right: 1em;
 }
 
 
-/*#maps
-{
-	margin-left: 2em;
-}
+
 
 #maps h2
 {
@@ -126,13 +132,16 @@ input, #nom, #ville, #photo, #envoyer
 
 #tout #maps
 {
-	display: inline-block;
+	display: block;
 	border-right: 0.1mm solid;
-	margin-right: 4em;
-	padding-right: 5em;
-}*/
+	margin-left: 2em;
+	padding-right: 3em;
+}
 
-#tout #formulaire
+
+@media screen and (max-width: 1184px){
+#tout #maps
 {
-	display: inline-block;
+	border-right: none;
+}
 }
