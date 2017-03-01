@@ -137,11 +137,15 @@ input, textarea
 	padding-right: 3em;
 }
 
+footer
+{
+
+}
 
 @media screen and (max-width: 1184px){
-#tout #maps
+iframe
 {
-	width: 50%;
+	width: 200%;
 }
 
 #tout #maps
