@@ -54,15 +54,6 @@ header
 	height:25px;
 }
 
-.formulaire .bouton       
-{ 
-	background-image: url("../img/searchbar.png");
-	background-repeat: no-repeat;
-	width: 30px;
-	height: 30px;
-	padding: 0; 
-	border: 1px solid;
-}
 
 
 #les-blocs .bloc
