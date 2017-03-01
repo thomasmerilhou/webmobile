@@ -122,13 +122,6 @@ input, textarea
 
 
 
-
-#maps h2
-{
-	margin-left: 1em;
-	
-}
-
 #tout #maps
 {
 	display: block;
@@ -151,7 +144,7 @@ iframe
 #tout #maps
 {
 	border-right: none;
-	margin-left: 1em;
+	margin-left: 0.5em;
 }
 
 #tout #formulaire input, #tout #formulaire textarea
