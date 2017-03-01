@@ -142,6 +142,7 @@ input, textarea
 #tout #maps
 {
 	border-right: none;
+	width: 97%;
 }
 
 #tout #formulaire input, #tout #formulaire textarea
