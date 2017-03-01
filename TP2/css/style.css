@@ -144,7 +144,12 @@ input, textarea
 	border-right: none;
 }
 
-#formulaire input, #formulaire textarea
+#tout #formulaire input, #tout #formulaire textarea
+{
+	width: 100%;
+}
+
+#tout #formulaire
 {
 	width: 100%;
 }
