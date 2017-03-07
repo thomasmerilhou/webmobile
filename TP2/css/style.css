@@ -1,22 +1,22 @@
+/* Tous les titres h1 */
 h1
 {
 	margin-left: 1em;
 }
 
-header
+/*L'image a gauche en logo*/
+#logo
 {
-	margin-top: 0.5cm;
+	margin-bottom: 1cm;
+	border-bottom: 1px solid;
 }
 
-#banniere
+/*Image avec le téléphone pour appeler mon numéro*/
+#telephone, #telephone a
 {
-	  background: url("../img/banniere.jpg") center;
-	  background-size: 100%;
-	  background-repeat: no-repeat;
-	  width: 100%;
-	  height: 500px;
+	display: none;
 }
-
+/*les liens*/
 #menu
 {
 	float: right;
@@ -30,23 +30,12 @@ header
 	margin-left: 1cm;
 }
 
+/*Barre de recherche*/
 #searchbar
 { 
 	float: right;
 	margin-top: -6%;
 }
-
-#telephone, #telephone a
-{
-	display: none;
-}
-
-#logo
-{
-	margin-bottom: 1cm;
-	border-bottom: 1px solid;
-}
-
 .formulaire
 {
 	display:inline-block;
@@ -59,14 +48,17 @@ header
 	height:25px;
 }
 
-
-#les-blocs .bloc
+/* Bannière avec l'image centrale */
+#banniere
 {
-	text-align: center;
-	width: 24.8%;
-	display: inline-block;
+	  background: url("../img/banniere.jpg") center;
+	  background-size: 100%;
+	  background-repeat: no-repeat;
+	  width: 100%;
+	  height: 500px;
 }
 
+/* Texte en dessous de la banière*/
 #texte p
 {
 	font-style:italic;
@@ -77,13 +69,27 @@ header
   	margin-right: 2em;
 }
 
+/*block avec les images*/
+#les-blocs .bloc
+{
+	text-align: center;
+	width: 24.8%;
+	display: inline-block;
+}
+
+/*bloc avec la carte*/
 #tout #maps
 {
 	width: 45%;
 	float: left;
 	display: block;
+	display: block;
+	border-right: 0.1mm solid;
+	margin-left: 2em;
+	padding-right: 3em;
 }
 
+/*bloc avec le formulaire*/
 #tout #formulaire
 {
 	width: 45%;
@@ -126,58 +132,22 @@ input, textarea
 	width:84%; 
 }
 
-
-#tout #maps
+/*footer*/
+#footer
 {
-	display: block;
-	border-right: 0.1mm solid;
-	margin-left: 2em;
-	padding-right: 3em;
-}
-
-
-@media screen and (max-width: 1184px){
-iframe
-{
-	width: 220%;
-}
-
-#menu, #searchbar
-{
-	margin : 0 auto;
-}
-
-#tout #maps
-{
-	border-right: none;
-	margin-left: 0.5em;
-}
-
-#tout #formulaire input, #tout #formulaire textarea
-{
-	width: 97%;
-	padding-left: 7px;
-	margin-left: 2px;
-	margin-right: 2px;
-}
-
-#tout #formulaire
-{
+	display:inline-block;
+	border-top: 1px solid;
 	width: 100%;
+	margin-top: 2em; 
 }
 
-
-
-#les-blocs .bloc
+#footer p
 {
-	width: 49%;
+	float: right;
 }
 
-#menu
-{
-	display: none;
-}
-
+/*CSS POUR TABLETTE*/
+@media screen and (max-width: 1184px){
 #logo
 {
 	width: 50%;
@@ -196,19 +166,58 @@ iframe
 	display: none;	
 }
 
+#menu
+{
+	display: none;
+}
+
+#menu, #searchbar
+{
+	margin : 0 auto;
+}
+
 #banniere
 {
 	margin-top: -2em;
 	margin-bottom: -2em;
 }
-}
-@media screen and (max-width: 670px){
+
+
 #les-blocs .bloc
 {
-	width: 100%;
-	display: block;
+	width: 49%;
 }
 
+/*Redimension de l'iframe et non de la div*/
+iframe
+{
+	width: 220%;
+}
+#tout #maps
+{
+	border-right: none;
+	margin-left: 0.5em;
+}
+
+#tout #formulaire
+{
+	width: 100%;
+}
+
+#tout #formulaire input, #tout #formulaire textarea
+{
+	width: 97%;
+	padding-left: 7px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+}
+
+/*CSS POUR MOBILE*/
+@media screen and (max-width: 670px){
+
+/*Image avec le téléphone pour appeler mon numéro*/
 #telephone, #telephone a
 {
 	margin-top: -28%; 
@@ -217,6 +226,12 @@ iframe
 	
 }
 
+/*block avec les images*/
+#les-blocs .bloc
+{
+	width: 100%;
+	display: block;
+}
 
 }
 
